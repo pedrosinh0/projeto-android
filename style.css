@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+body {
+    background-color: #84E1AD;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #38C979, black 150%);
+    margin: -20px -7px 0px -7px;
+}
+
+#primeiro_h1 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+#primeiro_p {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#segundo_p {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > a {
+    text-decoration: none;
+    padding-left: 6px;
+    padding-right: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#ima {
+    width: 100%;
+}
+
+#segundo_h1 {
+    color: #185734;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+#primeira_ancora_p_main {
+    color: #1c693f;
+    text-decoration: none;
+}
+
+#terceiro_h1 {
+    color: #185734;
+    background-image: linear-gradient(to right, #8edbaf, white);
+}
+
+#ultimo_h1 {
+    background-color: #1c693f;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+#ultima_ancora {
+    text-decoration: none;
+    color: rgb(238, 215, 11);
+    font-weight: bolder;
+}
+
+#main_2 {
+    min-width: 300px;
+    max-width: 800px;
+    background-color: #84e1aca8;
+    padding: 0px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#primeir_h1_main_2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #278852;
+    color: white;
+}
+
+#primeira_ul {
+    margin: 5px;
+    border: 5px;
+    padding: 5px;
+    list-style: none;
+}
+
+#id_primeira_ul {
+    color: black;
+}
+
+#centralizar {
+    text-align: center;
+}
+
+#penultimo_p_main_2 {
+    margin: 5px;
+    border: 5px;
+    padding: 5px;
+}
+
+#penultimo_p_main_3 {
+    margin: 5px;
+    border: 5px;
+    padding-bottom: 20px;
+}
+
+nav a:hover {
+    background-color: #c1f0b3ab;
+    border-radius: 20px;
+    padding-right: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1px;
+    margin-top: 10px;
+    margin-bottom: -8px;
+    margin-left: -6px;
+    margin-right: -8px;
+}
+
+div.video {
+    background-color: #185734;
+    margin: 0px -10px 30px -10px;
+    padding: 20px;
+    padding-bottom: 55.3%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
